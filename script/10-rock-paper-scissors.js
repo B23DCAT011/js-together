@@ -47,30 +47,30 @@ function playGame(playerMove){
       result='win.';
     }
     else{
-      result='tie.'
+      result='tie.';
     }
 
   }
   else if(playerMove==='paper'){
     if(computerMove==='rock'){
-      result=' Win.';
+      result='Win.';
     }
     else if(computerMove==='paper'){
       result='tie.';
     }
     else{
-      result='lose.'
+      result='lose.';
     }
   }
   else{
     if(computerMove==='rock'){
-  result='Tie.';
+    result='Tie.';
     }
     else if(computerMove==='paper'){
       result='lose.';
     }
     else{
-      result='Win.'
+      result='Win.';
     }
   }
 
