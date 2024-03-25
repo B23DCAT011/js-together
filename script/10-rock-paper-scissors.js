@@ -44,7 +44,7 @@ function playGame(playerMove){
       result='lose.';
     }
     else if(computerMove==='paper'){
-      result='win.';
+      result='Win.';
     }
     else{
       result='tie.';
